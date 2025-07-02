@@ -4,10 +4,10 @@ CS-465 Full Stack Development with MEAN
 <H3>Architecture</H3>
 <li>Compare and contrast the types of frontend development you used in your full stack project, including Express, HTML, JavaScript, and the single-page application (SPA).</li>
 <br>
-<p>We used Express and JavaScript to create the routes and controllers for the application to handle the different requests from the browser. Express then either retrieved the static HTML page or generateed a requested page by using a handlebars template that we created which used loops and information from the database instead. Angular was used to create our SPA. The SPA worked differently in that it was loaded all at once for the single page, meaning that everything code wise was handled in the browser from there on out. If we needed anything from the backend it was just to get data from the database in the form of JSON files.</p>
+<p>We used Express and JavaScript to create the routes and controllers for the application to handle the different requests from the browser. Express then either retrieved the static HTML page or generated a requested page by using a handlebars template that we created which used loops and information from the database instead. Angular was used to create our SPA. The SPA worked differently in that it was loaded all at once for the single page, meaning that everything code wise was handled in the browser from there on out. If we needed anything from the backend it was just to get data from the database in the form of JSON files.</p>
 <br>
 <li>Why did the backend use a NoSQL MongoDB database?</li>
-<p>Simply put since we were using JSON formatting for our data to be transfered back and forth anyway, using MongoDB (which stores its data in JSON format) saves us a lot of time and processing room since we don't need to convert the data storage format every time we make a request.</p>
+<p>Simply put since we were using JSON formatting for our data to be transferred back and forth anyway, using MongoDB (which stores its data in JSON format) saves us a lot of time and processing room since we don't need to convert the data storage format every time we make a request.</p>
 <br>
 <H3>Functionality</H3>
 <li>How is JSON different from JavaScript and how does JSON tie together the frontend and backend development pieces?</li>
@@ -25,4 +25,4 @@ CS-465 Full Stack Development with MEAN
 <H3>Reflection</H3>
 <li>How has this course helped you in reaching your professional goals?</li>
 <br>
-<p>I honestly didn't see myself wanting to do web-development before this class but it was a lot of fun. As frustrating as it became quite a few times I really enjoy the moments where you figure something out and everything slides back into place to make the website work again. This class also deepend my understanding of how you tie all the pieces of a project together, i.e., frontend, backend, and database. I think this new understanding will help me in the coming year when I am finished with schooling and trying to seek employment in the technology industry.</p>
+<p>I honestly didn't see myself wanting to do web-development before this class but it was a lot of fun. As frustrating as it became quite a few times I really enjoy the moments where you figure something out and everything slides back into place to make the website work again. This class also deepened my understanding of how you tie all the pieces of a project together, i.e., frontend, backend, and database. I think this new understanding will help me in the coming year when I am finished with schooling and trying to seek employment in the technology industry.</p>
